@@ -1,0 +1,4 @@
+insert into donor_details (name,bloodgroup,age,mobilenumber,country,state,city,area,weight,gender,password,email) values ('Dalia','O+',21,8976489314,'India','Goa','Panaji','Road-5',55,'Female','abcd','abcd@gmail.com');
+insert into donor_details (name,bloodgroup,age,mobilenumber,country,state,city,area,weight,gender,password,email) values ('Hema','O+',22,8976897314,'India','Dehli','Rohini','Sector-2',58,'Female','abc','abc@gmail.com');
+
+INSERT INTO blood_request (hospital_Name ,bloodgroup ,blood_Quantity ,contact_Number ,description ) VALUES ('NeoLife hospital','AB-','5 units',9878986535,'Usha needs urgent blood');

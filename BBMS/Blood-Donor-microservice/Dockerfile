@@ -1,0 +1,5 @@
+FROM adoptopenjdk/openjdk11:alpine-jre
+ARG JAR_FILE=target/*.jar
+WORKDIR /opt/app
+COPY ${JAR_FILE} Blood-Donor-microservice.jar
+ENTRYPOINT ["java","-jar","Blood-Donor-microservice.jar"]

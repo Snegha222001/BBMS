@@ -1,0 +1,37 @@
+
+  
+  .req-form-container {
+    
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  
+  .req-form {
+    
+   
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .req-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .req-form-title {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
